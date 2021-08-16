@@ -8,6 +8,15 @@ function reset(){
     document.getElementById("seven").className = "spacer";
     document.getElementById("eight").className = "ib";
     document.getElementById("nine").className = "spacel";
+    document.getElementById("pone").className = "p";
+    document.getElementById("ptwo").className = "p";
+    document.getElementById("pthree").className = "p";
+    document.getElementById("pfour").className = "p";
+    document.getElementById("pfive").className = "p";
+    document.getElementById("psix").className = "p";
+    document.getElementById("pseven").className = "p";
+    document.getElementById("peight").className = "p";
+    document.getElementById("pnine").className = "p";
 }
 
 function judg(){
@@ -15,42 +24,51 @@ function judg(){
     var num = Number(document.getElementById("box").textContent);
 if(num != 0 && document.getElementById("box").textContent != ""){    
     document.getElementById("one").className = "signr";
+    document.getElementById("pone").className = "signp";
     let xa = (num % 2);
     if(xa == 0){
+        document.getElementById("ptwo").className = "signp";
         document.getElementById("two").className = "signc";
     }
     let xb = (num % 3);
     if(xb == 0){
         document.getElementById("three").className = "signl";
+        document.getElementById("pthree").className = "signp";
     }
     let xc = (num % 4);
     if(xc == 0){
         document.getElementById("four").className = "signr";
+        document.getElementById("pfour").className = "signp";
     }
     let xd = (num % 5);
     if(xd == 0){
         document.getElementById("five").className = "signc";
+        document.getElementById("pfive").className = "signp";
     }
     let xe = (num % 6);
     if(xe == 0){
         document.getElementById("six").className = "signl";
+        document.getElementById("psix").className = "signp";
     }
     let xf = (num % 7);
     if(xf == 0){
         document.getElementById("seven").className = "signr";
+        document.getElementById("pseven").className = "signp";
     }
     let xg = (num % 8);
     if(xg == 0){
         document.getElementById("eight").className = "signc";
+        document.getElementById("peight").className = "signp";
     }
     let xh = (num % 9);
     if(xh == 0){
         document.getElementById("nine").className = "signl";
+        document.getElementById("pnine").className = "signp";
     }
 }};
 
 function autoLink()
-{location.href="https://nazoneverland.github.io/lastc/";}
+{location.href="https://NazoNeverland.github.io/lastc/";}
 
 
 
