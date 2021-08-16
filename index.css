@@ -16,24 +16,25 @@ body {
 	height: 48px;
 	width: auto;
 	text-align: center;
+	margin-bottom: 24px;
 }
 
 .tc {
 	text-align: center;
-	height: 55px;
+	height: 72px;
 }
 
 .spacer {
 	height: 54px;
 	width: 54px;
-	margin-right: 24px;
+	margin-right: 18px;
 	display: inline-block;
 }
 
 .spacel {
 	height: 54px;
 	width: 54px;
-	margin-left: 24px;
+	margin-left: 18px;
 	display: inline-block;
 }
 
@@ -52,8 +53,8 @@ body {
 	width: 50px;
 	background-color: #d296ee;
 	display: inline-block;
+	margin-left: 18px;
 	border: solid 2px #000000;
-	margin-left: 24px;
 }
 
 .signr {
@@ -61,8 +62,8 @@ body {
 	width: 50px;
 	background-color: #d296ee;
 	display: inline-block;
+	margin-right: 18px;
 	border: solid 2px #000000;
-	margin-right: 24px;
 }
 
 .signc {
@@ -78,13 +79,17 @@ body {
 }
 
 p{
-	margin-top: 2px;
-	margin-bottom: 2px;
 	height: 48px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .signp{
 	margin-top: 0px;
 	margin-bottom: 0px;
 	height: 48px;
+}
+
+.pp{
+	border: solid 2px #000000;
 }
