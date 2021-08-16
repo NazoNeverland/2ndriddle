@@ -50,7 +50,7 @@ if(num != 0 && document.getElementById("box").textContent != ""){
 }};
 
 function autoLink()
-{location.href="https://iida-256.github.io/lastcorrect/";}
+{location.href="https://nazoneverland.github.io/lastc/";}
 
 
 
