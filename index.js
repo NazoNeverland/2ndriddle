@@ -8,15 +8,15 @@ function reset(){
     document.getElementById("seven").className = "spacer";
     document.getElementById("eight").className = "ib";
     document.getElementById("nine").className = "spacel";
-    document.getElementById("pone").className = "p";
-    document.getElementById("ptwo").className = "p";
-    document.getElementById("pthree").className = "p";
-    document.getElementById("pfour").className = "p";
-    document.getElementById("pfive").className = "p";
-    document.getElementById("psix").className = "p";
-    document.getElementById("pseven").className = "p";
-    document.getElementById("peight").className = "p";
-    document.getElementById("pnine").className = "p";
+    document.getElementById("pone").className = "pp";
+    document.getElementById("ptwo").className = "pp";
+    document.getElementById("pthree").className = "pp";
+    document.getElementById("pfour").className = "pp";
+    document.getElementById("pfive").className = "pp";
+    document.getElementById("psix").className = "pp";
+    document.getElementById("pseven").className = "pp";
+    document.getElementById("peight").className = "pp";
+    document.getElementById("pnine").className = "pp";
 }
 
 function judg(){
